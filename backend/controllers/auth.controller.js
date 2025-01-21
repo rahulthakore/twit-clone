@@ -2,9 +2,6 @@ import { generateTokenAndSetCookie } from "../lib/utils/generateToken.js";
 import User from "../models/user.model.js";
 import bcrypt from "bcryptjs";
 
-const bcrypt = require('bcrypt');
-const User = require('../models/User'); // Adjust the path to your User model
-const { generateTokenAndSetCookie } = require('../utils/auth'); // Adjust the path to your auth utility
 
 export const signup = async (req, res) => {
     try {
